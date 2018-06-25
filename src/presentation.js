@@ -68,7 +68,7 @@ export default class Presentation extends Component {
         </Slide>
         <Slide bgColor="primary">
           <Heading size={3} textColor="tertiary">
-            Organization info
+            Organizational info
           </Heading>
           <List>
             <Appear>
