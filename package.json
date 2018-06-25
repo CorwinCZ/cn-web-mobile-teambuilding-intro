@@ -8,10 +8,11 @@
     "spectacle-scripts": "2.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "BROWSER=none react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && surge -p ./build --domain cn-web-mobile-teambuilding-intro.surge.sh"
   },
   "devDependencies": {
     "prettier": "^1.13.5"
