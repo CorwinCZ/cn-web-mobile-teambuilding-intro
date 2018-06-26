@@ -28,7 +28,7 @@ export default class Presentation extends Component {
             Web & Mobile
           </Heading>
           <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            Grill party
+            DevTalks
           </Text>
         </Slide>
         <Slide bgColor="primary">
